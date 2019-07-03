@@ -5,7 +5,7 @@ script in this directory and update the make command accordingly.
 
 First step is to create a symbolic link to your paper directory using the command below:
 ```bash
-ln -s paper `realpath YOUR_PAPER_DIRECTORY`
+ln -s `realpath YOUR_PAPER_DIRECTORY` paper
 ```
 
 Next, run the command below to create the Docker image:
